@@ -35,7 +35,9 @@ module.exports = {
         //public: 'store-client-nestroia1.c9users.io' // That solved it
 /////////////////////
         //disableHostCheck: true,
-        allowedHosts: [jitsi-meet-react-sdk.onrender.com],
+        //allowedHosts: [jitsi-meet-react-sdk.onrender.com],
+        compress: true,
+        public: 'jitsi-meet-react-sdk.onrender.com', // That solved it
         static: './',
         port: 5001
     }
