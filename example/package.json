@@ -4,7 +4,7 @@
     "description": "Usage example for the JitsiMeeting component",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --history-api-fallback --progress"
+        "start": "webpack-dev-server --history-api-fallback --progress --disableHostCheck"
     },
     "keywords": [],
     "author": "",
