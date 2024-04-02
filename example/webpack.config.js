@@ -31,10 +31,11 @@ module.exports = {
     ],
     devServer: {
 //////////////////////
-        compress: true,
-        public: 'store-client-nestroia1.c9users.io' // That solved it
+        //compress: true,
+        //public: 'store-client-nestroia1.c9users.io' // That solved it
 /////////////////////
-        //static: './',
-        //port: 5001
+        disableHostCheck: true,
+        static: './',
+        port: 5001
     }
 };
