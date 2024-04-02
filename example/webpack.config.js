@@ -35,6 +35,6 @@ module.exports = {
         public: 'store-client-nestroia1.c9users.io' // That solved it
 /////////////////////
         //static: './',
-        port: 5001
+        //port: 5001
     }
 };
