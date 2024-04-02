@@ -40,7 +40,7 @@ module.exports = {
         public: 'jitsi-meet-react-sdk.onrender.com', // That solved it */
         //compress: true,
         //disableHostCheck: true,   // That solved it
-        allowedHosts: "all",
+        allowedHosts: "all",// That solved it
         static: './',
         port: 5001
     }
